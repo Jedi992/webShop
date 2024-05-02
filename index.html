@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Vite App</title>
+  </head>
+  <body>
+  <header>
+    <div class="container">
+      <div class="header__primary">
+          <a class="header__logo">glance</a>
+        <input class="header__input" type="text" placeholder="Поиск" >
+        <div class="header__nav__menu">
+         <div class="header__nav__catalog">
+             <a href="#"><img src="image/catalog%20icon.png" alt="catalog"></a>
+            <a class="header__nav__logo__text" href="#">Каталог</a>
+         </div>
+         <div class="header__nav">
+             <a href="#"> <img src="image/icon%20basket.png" alt="basket"></a>
+           <a class="header__nav__logo" href="#">Корзина</a> <div class="cart__num" id="cart_num">0</div>
+          </div>
+          <div class="header__nav">
+              <a href="#"><img src="image/🦆%20icon%20profil.png" alt="profile"></a>
+            <a class="header__nav__logo" href="#">Профиль</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="banner">
+    <div class="container">
+        <img src="image/баннер.png" alt="banner">
+        <button class="button-right btn"><img src="image/Frame261.png" alt="frame-right"></button>
+        <button class="button-left btn"><img src="image/Frame265.png" alt="frame-left"></button>
+    </div>
+  </section>
+  <section class="catalog">
+      <div class="container">
+      <h2 class="catalog__logo">Каталог</h2>
+         <div class="catalog__card__wrapper">
+             <a href="#"><img src="image/phone.png" alt="phone"></a>
+             <a href="#"><img src="image/notebook.png" alt="notebook"></a>
+             <a href="#"><img src="image/computer.png" alt="computer"></a>
+             <a href="#"><img src="image/TV.png" alt="tv"></a>
+             <a href="#"><img src="image/planshet.png" alt="planshet"></a>
+             <a href="#"><img src="image/colonki.png" alt="colonki"></a>
+             <button class="button__card btn"><img src="image/next.png" alt="next"></button>
+         </div>
+      </div>
+  </section>
+  <section class="stock">
+      <div class="container">
+    <div class="stock__wrapper">
+        <div class="stock__logo__block">
+        <h2 class="stock__logo">Акции</h2>
+        </div>
+        <div class="stock__card__catalog">
+            <div class="stock__card" data-id="01">
+                <div class="position">
+                <img class="stock__img" src="image/iphone14.jpg" alt="iphone">
+                <p class="discount">- 4 %</p>
+                </div>
+                <div class="button__wrapper">
+                <button class="btn__card"></button>
+                <button class="btn__card btn__active"></button>
+                <button class="btn__card"></button>
+                </div>
+                <a class="stock__phone" href="#">Смартфон Apple <br> iPhone 14 128GB </a>
+                <div class="stock__action__block">
+                    <a class="stock__action" href="#">84 123 ₽</a>
+                    <a class="stock__action__old" href="#">87 999 ₽</a>
+                </div>
+                <div class="in__stock__image__text">
+                    <p class="in__stock">В наличии</p> <img class="favorite" src="image/Vector.png" alt="">
+
+                </div>
+                <div class="button__wrapper__stock"><button data-card type="button"  class="stock__basket">В корзину</button></div>
+            </div>
+            <div class="stock__card" data-id="02">
+                <div class="position">
+                    <img class="stock__img" src="image/iphone14.jpg" alt="iphone">
+                    <p class="discount">- 4 %</p>
+                </div>
+                <div class="button__wrapper">
+                    <button class="btn__card"></button>
+                    <button class="btn__card btn__active"></button>
+                    <button class="btn__card"></button>
+                </div>
+                <a class="stock__phone" href="#">Смартфон Apple <br> iPhone 14 128GB </a>
+                <div class="stock__action__block">
+                    <a class="stock__action" href="#">84 569 ₽</a>
+                    <a class="stock__action__old" href="#">87 999 ₽</a>
+                </div>
+                <div class="in__stock__image__text">
+                    <p class="in__stock">В наличии</p> <img class="favorite" src="image/Vector.png" alt="">
+
+                </div>
+                <div class="button__wrapper__stock"><button data-card type="button"  class="stock__basket">В корзину</button></div>
+            </div>
+            <div class="stock__card" data-id="03">
+                <div class="position">
+                    <img class="stock__img" src="image/iphone14.jpg" alt="iphone">
+                    <p class="discount">- 4 %</p>
+                </div>
+                <div class="button__wrapper">
+                    <button class="btn__card"></button>
+                    <button class="btn__card btn__active"></button>
+                    <button class="btn__card"></button>
+                </div>
+                <a class="stock__phone" href="#">Смартфон Apple <br> iPhone 14 128GB </a>
+                <div class="stock__action__block">
+                    <a class="stock__action" href="#">84 923 ₽</a>
+                    <a class="stock__action__old" href="#">87 999 ₽</a>
+                </div>
+                <div class="in__stock__image__text">
+                    <p class="in__stock">В наличии</p> <img class="favorite" src="image/Vector.png" alt="">
+
+                </div>
+                <div class="button__wrapper__stock"><button data-card type="button"  class="stock__basket">В корзину</button></div>
+            </div>
+            <div class="stock__card" data-id="04">
+                <div class="position">
+                    <img class="stock__img" src="image/iphone14.jpg" alt="iphone">
+                    <p class="discount">- 4 %</p>
+                </div>
+                <div class="button__wrapper">
+                    <button class="btn__card"></button>
+                    <button class="btn__card btn__active"></button>
+                    <button class="btn__card"></button>
+                </div>
+                <a class="stock__phone" href="#">Смартфон Apple <br> iPhone 14 128GB </a>
+                <div class="stock__action__block">
+                    <a class="stock__action" href="#">84 991 ₽</a>
+                    <a class="stock__action__old" href="#">87 999 ₽</a>
+                </div>
+                <div class="in__stock__image__text">
+                    <p class="in__stock">В наличии</p> <img class="favorite" src="image/Vector.png" alt="">
+
+                </div>
+                <div class="button__wrapper__stock"><button data-card type="button"  class="stock__basket">В корзину</button></div>
+            </div>
+            <div class="stock__card" data-id="05">
+                <div class="position">
+                    <img class="stock__img" src="image/iphone14.jpg" alt="iphone">
+                    <p class="discount">- 4 %</p>
+                </div>
+                <div class="button__wrapper">
+                    <button class="btn__card"></button>
+                    <button class="btn__card btn__active"></button>
+                    <button class="btn__card"></button>
+                </div>
+                <a class="stock__phone" href="#">Смартфон Apple <br> iPhone 14 128GB </a>
+                <div class="stock__action__block">
+                    <a class="stock__action" href="#">84 969 ₽</a>
+                    <a class="stock__action__old" href="#">87 999 ₽</a>
+                </div>
+                <div class="in__stock__image__text">
+                    <p class="in__stock">В наличии</p> <img class="favorite" src="image/Vector.png" alt="">
+
+                </div>
+                <div class="button__wrapper__stock"><button data-card type="button"  class="stock__basket">В корзину</button></div>
+            </div>
+            <div class="stock__card" data-id="06">
+                <div class="position">
+                    <img class="stock__img" src="image/iphone14.jpg" alt="iphone">
+                    <p class="discount">- 4 %</p>
+                </div>
+                <div class="button__wrapper">
+                    <button class="btn__card"></button>
+                    <button class="btn__card btn__active"></button>
+                    <button class="btn__card"></button>
+                </div>
+                <a class="stock__phone" href="#">Смартфон Apple <br> iPhone 14 128GB </a>
+                <div class="stock__action__block">
+                    <a class="stock__action" href="#">84 299 ₽</a>
+                    <a class="stock__action__old" href="#">87 999 ₽</a>
+                </div>
+                <div class="in__stock__image__text">
+                    <p class="in__stock">В наличии</p> <img class="favorite" src="image/Vector.png" alt="">
+
+                </div>
+                <div class="button__wrapper__stock"><button data-card type="button"  class="stock__basket">В корзину</button></div>
+            </div>
+
+        </div>
+    </div>
+      </div>
+  </section>
+  <script src="main.js"></script>
+  </body>
+</html>
